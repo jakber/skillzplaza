@@ -1,0 +1,20 @@
+{
+    "picture": "http://a.tgcdn.net/images/products/additional/carouselthumb/e5a4_bazinga_hoodie.jpg",
+    "name": "Stanislav Chizhov",
+    "primarySkills": [
+        {"name": "Java", "buyers":[]},
+        {"name": "SQL"}
+        {"name": "Passion for clean code :)"}
+        {"name": "Unit testing"}
+    ],
+    "secondarySkills": [
+        {"name": "Machine Learning", "buyers":[]},
+        {"name": "Agile stuff", "buyers":[]}
+    ],
+    "wishList": [
+        {"name":"White-water Kayaking", "sellers": []}, 
+        {"name":"Enlightment", "sellers": []},
+        {"name":"NoSQL", "sellers": []}
+    ],
+    "hobbiesOrFunFacts": ["Hiking", ""]
+}
