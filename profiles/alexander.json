@@ -1,0 +1,16 @@
+{
+    "picture": "",
+    "name": "Alexander Altanis",
+    "primarySkills": [
+        {"name": "JavaScript/CoffeeScript"},
+        {"name": "git l33tZ"},
+        {"name": "vim-fu"}
+    ],
+    "secondarySkills": [
+        {"name": "Questioning and debating so that I learn and teach more quickly (ie not shutting up)"}
+    ],
+    "wishList": [
+        {"name": "Java concurrency"}
+    ],
+    "hobbiesOrFunFacts": ["Boardgames", "Have flown"]
+}

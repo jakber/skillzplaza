@@ -2,16 +2,17 @@
     "picture": "https://sv.gravatar.com/userimage/24699959/8f17ff11307f031d5592ec694a38783f.jpg?size=120",
     "name": "Jakob Bergendahl",
     "primarySkills": [
-        {"name": "Java", "buyers":["Alexander", "Stanislav"]},
-        {"name":"Stuff"}
+        {"name": "Java, Javascript and Python programming", "buyers":[]},
+        {"name": "Databases"},
+        {"name": "Distributed Systems"},
+        {"name": "Scrum & Agile", "buyers":[]}
     ],
     "secondarySkills": [
-                    {"name": "Excelling in Excel", "buyers":["Everybody"]},
-                    {"name": "Scrum", "buyers":[]}
+        {"name": "Excelling in Excel", "buyers":[]},
+        {"name": "Theoretical Computer Science", "buyers":[]}
     ],
     "wishList": [
-                {"name":"DJing", "sellers": ["Henry"]}, 
-                {"name":"Humility", "sellers": []}
+        {"name":"Advanced Scala", "sellers": []}
     ],
-    "hobbiesOrFunFacts": ["Innebandy", "Diablo"]
+    "hobbiesOrFunFacts": ["Videoplaza StarCraft II champion", "I like skiing and go on as many ski-trips as I can"]
 }
