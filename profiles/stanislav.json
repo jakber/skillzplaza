@@ -4,7 +4,7 @@
     "primarySkills": [
         {"name": "Java", "buyers":[]},
         {"name": "SQL"},
-        {"name": "Passion for clean code :)"},
+        {"name": "Passion for clean code :)", "buyers":["alexander"]},
         {"name": "Unit testing"}
     ],
     "secondarySkills": [
@@ -13,8 +13,8 @@
     ],
     "wishList": [
         {"name":"White-water Kayaking", "sellers": []}, 
-        {"name":"Enlightment", "sellers": []},
-        {"name":"NoSQL", "sellers": []}
+        {"name":"Enlightment", "sellers": ["eirini"]},
+        {"name":"NoSQL", "sellers": ["jakob"]}
     ],
     "hobbiesOrFunFacts": ["Hiking", ""]
 }
