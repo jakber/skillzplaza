@@ -3,7 +3,7 @@
    "name": "Tom Nagelkerke",
    "primarySkills": [
       {"name": "Java", "buyers":[]},
-      {"name": "Maven", "buyers":[]},
+      {"name": "Maven", "buyers":["Eirini", "Jakob"]},
       {"name": "JUnit", "buyers":[]},
       {"name": "MySQL", "buyers":[]},
       {"name":"Scala", "sellers": []}
@@ -14,7 +14,7 @@
       {"name": "Android app dev", "buyers":[]}
    ],
    "wishList": [
-      {"name":"MongoDb", "sellers": []},
+      {"name":"MongoDb", "sellers": ["Jakob"]},
       {"name":"Cassandra", "sellers": []},
       {"name":"Bash", "sellers": []},
       {"name":"Foos", "sellers": []}
