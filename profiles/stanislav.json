@@ -3,8 +3,8 @@
     "name": "Stanislav Chizhov",
     "primarySkills": [
         {"name": "Java", "buyers":[]},
-        {"name": "SQL"}
-        {"name": "Passion for clean code :)"}
+        {"name": "SQL"},
+        {"name": "Passion for clean code :)"},
         {"name": "Unit testing"}
     ],
     "secondarySkills": [
