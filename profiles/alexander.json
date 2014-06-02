@@ -2,15 +2,15 @@
     "picture": "",
     "name": "Alexander Altanis",
     "primarySkills": [
-        {"name": "JavaScript/CoffeeScript"},
-        {"name": "git l33tZ"},
-        {"name": "vim-fu"}
+        {"name": "JavaScript/CoffeeScript", "buyers": ["Jakob"]},
+        {"name": "git l33tZ", "buyers": ["Eirini", "Tom", "Stanislav"]},
+        {"name": "vim-fu", "buyers": ["Stanislav"]}
     ],
     "secondarySkills": [
         {"name": "Questioning and debating so that I learn and teach more quickly (ie not shutting up)"}
     ],
     "wishList": [
-        {"name": "Java concurrency"}
+        {"name": "Java concurrency", "sellers": ["Stanislav"]}
     ],
     "hobbiesOrFunFacts": ["Boardgames", "Have flown"]
 }
