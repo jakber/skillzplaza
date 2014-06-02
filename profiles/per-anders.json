@@ -1,0 +1,26 @@
+{
+    "picture": "",
+    "name": "Per-Anders Legeryd",
+    "primarySkills": [
+		{"name": "Endurance", "buyers": []},
+        {"name": "Video Ad Serving", "buyers": []},
+		{"name": "Respource management", "buyers": []},
+		{"name": "IAB Standards", "buyers": []}
+    ],
+    "secondarySkills": [
+		{"name": "JavaScript", "buyers":[]},
+		{"name": "Java", "buyers": []},
+		{"name": "Python", "buyers":[]},
+		{"name": "ActionScript", "buyers":[]},
+		{"name": "Objective-C", "buyers":[]},
+		{"name": "C#", "buyers":[]}
+    ],
+    "wishList": [
+		{"name": "\"Big Data\"", "sellers": []},
+		{"name": "API Design", "sellers": []},
+		{"name": "UX", "sellers": []},
+		{"name": "Front-end Development", "sellers": []},
+		{"name": "Web Design", "sellers": []}
+    ],
+    "hobbiesOrFunFacts": ["Comic book beginner, MMA junky and cross-country skii lover."]
+}
