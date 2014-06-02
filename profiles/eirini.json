@@ -1,0 +1,19 @@
+{
+    "picture": "",
+    "name": "Eirini Kakogianni",
+    "primarySkills": [
+        {"name": "java"},
+        {"name": "scala"},
+        {"name": "bash scripting"},
+        {"name": "nosql databases"}
+    ],
+    "secondarySkills": [
+                    {"name": "streaming media"},
+                    {"name": "content distribution networks"}
+    ],
+    "wishList": [    
+        {"name": "git"},
+        {"name": "python"}
+    ],
+    "hobbiesOrFunFacts": ["dressmaking", "belly dancing", "ukulele"]
+}
