@@ -1,0 +1,23 @@
+{
+   "picture": "http://4.bp.blogspot.com/-Lwj_DHhAC5c/TX9Hs4BfulI/AAAAAAAACNo/9W0QmdTOlLg/s400/Father%2BJack.jpg",
+   "name": "Tom Nagelkerke",
+   "primarySkills": [
+      {"name": "Java", "buyers":[]},
+      {"name": "Maven", "buyers":[]},
+      {"name": "JUnit", "buyers":[]},
+      {"name": "MySQL", "buyers":[]},
+      {"name":"Scala", "sellers": []}
+   ],
+   "secondarySkills": [
+      {"name": "Spring", "buyers":[]},
+      {"name": "SVN", "buyers":[]},
+      {"name": "Android app dev", "buyers":[]}
+   ],
+   "wishList": [
+      {"name":"MongoDb", "sellers": []},
+      {"name":"Cassandra", "sellers": []},
+      {"name":"Bash", "sellers": []},
+      {"name":"Foos", "sellers": []}
+   ],
+   "hobbiesOrFunFacts": ["Coffee", "Beer"]
+}
