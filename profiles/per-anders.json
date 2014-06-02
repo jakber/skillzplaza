@@ -4,22 +4,22 @@
     "primarySkills": [
 		{"name": "Endurance", "buyers": []},
         {"name": "Video Ad Serving", "buyers": []},
-		{"name": "Respource management", "buyers": []},
+		{"name": "Resource management", "buyers": []},
 		{"name": "IAB Standards", "buyers": []}
     ],
     "secondarySkills": [
 		{"name": "JavaScript", "buyers":[]},
 		{"name": "Java", "buyers": []},
-		{"name": "Python", "buyers":[]},
+		{"name": "Python", "buyers":["Eirini"]},
 		{"name": "ActionScript", "buyers":[]},
 		{"name": "Objective-C", "buyers":[]},
 		{"name": "C#", "buyers":[]}
     ],
     "wishList": [
-		{"name": "\"Big Data\"", "sellers": []},
-		{"name": "API Design", "sellers": []},
+		{"name": "\"Big Data\"", "sellers": ["Jakob"]},
+		{"name": "API Design", "sellers": ["Jakob"]},
 		{"name": "UX", "sellers": []},
-		{"name": "Front-end Development", "sellers": []},
+		{"name": "Front-end Development", "sellers": ["Jakob"]},
 		{"name": "Web Design", "sellers": []}
     ],
     "hobbiesOrFunFacts": ["Comic book beginner, MMA junky and cross-country skii lover."]
