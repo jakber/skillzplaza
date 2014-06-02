@@ -118,8 +118,12 @@
     function selectProfile(e) {
         var p = e.target.innerText.toLowerCase();
         console.log(p);
-        $("#profile").html(template(profiles[p]));
-        positionFooter();
+        $.getJSON("profiles/" + p + ".json").done(function(data) {
+            //console.log("done")
+            //console.log(data);
+            $("#profile").html(template(data));
+            positionFooter();
+        }).fail(function(err) {console.log("fail"); console.log(err)});
         return false;
     }
     var positionFooter = function () {

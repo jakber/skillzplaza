@@ -1,0 +1,17 @@
+{
+    "picture": "https://sv.gravatar.com/userimage/24699959/8f17ff11307f031d5592ec694a38783f.jpg?size=200",
+    "name": "Jakob Bergendahl",
+    "primarySkills": [
+        {"name": "Java", "buyers":["Alexander", "Stanislav"]},
+        {"name":"Stuff"}
+    ],
+    "secondarySkills": [
+                    {"name": "Excelling in Excel", "buyers":["Everybody"]},
+                    {"name": "Scrum", "buyers":[]}
+    ],
+    "wishList": [
+                {"name":"DJing", "sellers": ["Henry"]}, 
+                {"name":"Humility", "sellers": []}
+    ],
+    "hobbiesOrFunFacts": ["Innebandy", "Diablo"]
+}
