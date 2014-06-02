@@ -34,7 +34,7 @@
     <div class="row">
       <div class="large-12 columns">
         <div id="profile">
-            <h1>SkillzPlaza: Team Heimdall</h1>
+            <h1 style="text-align:center"><br><br>SkillzPlaza<br>Heimdall</h1>
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@
     <script id="profile-template" type="text/x-handlebars-template">
         <div class="row">
           <div class="large-12 columns">
-            <h1>{{name}}</h1>
+            <h1><img src="{{picture}}" style="border: 3px solid #333;"> {{name}}</h1>
           </div>
         </div>
         
@@ -58,7 +58,7 @@
             <h2>Primary Skills</h2>
             <ul>
             {{#each primarySkills}}
-            <li>{{this}}!</li>
+            <li><big>{{name}}!</big><br><span style="color:#888">{{sentence buyers}} to buy this.</span></li>
             {{/each}}
             </ul>
           </div>
@@ -66,7 +66,7 @@
             <h2>Secondary Skills</h2>
             <ul>
             {{#each secondarySkills}}
-            <li>{{this}}!</li>
+            <li><big>{{name}}!</big><br><span style="color:#888">{{sentence buyers}} to buy this.</span></li>
             {{/each}}
             </ul>
           </div>
@@ -76,7 +76,7 @@
             <h2>Want to buy</h2>
             <ul>
             {{#each wishList}}
-            <li>{{this}}!</li>
+            <li><big>{{name}}!</big><br><span style="color:#888">{{sentence sellers}} to sell this.<span></li>
             {{/each}}
             </ul>
           </div>
@@ -93,16 +93,28 @@
     <script>
     var profiles = {
         jakob: {
+            picture: "https://sv.gravatar.com/userimage/24699959/8f17ff11307f031d5592ec694a38783f.jpg?size=200",
             name: "Jakob Bergendahl",
-            primarySkills: ["Java", "Stuff"],
-            secondarySkills: ["Scrum", "Excelling in Excel"],
-            wishList: ["DJing", "Humility"],
+            primarySkills: [
+                {name: "Java", buyers:["Alexander", "Stanislav"]},
+                {name:"Stuff"}
+            ],
+            secondarySkills: [
+                            {name: "Excelling in Excel", buyers:["Everybody"]},
+                            {name: "Scrum", buyers:[]}
+            ],
+            wishList: [
+                        {name:"DJing", sellers: ["Henry"]}, 
+                        {name:"Humility", sellers: []}
+            ],
             hobbiesOrFunFacts: ["Innebandy", "Diablo"],
-            buyers: {"Java": "Alexander"},
-            sellers: {"DJing": "Henry"}
         }
     };
     var template = Handlebars.compile($("#profile-template").text());
+    Handlebars.registerHelper("sentence", function(buyers) {
+        if (!buyers || !buyers.length) return "Nobody wants";
+        return buyers.join(", ").replace(/,([^,]*)$/, " and $1") + " want" + (buyers.length == 1 ? "s" : "");
+    });
     function selectProfile(e) {
         var p = e.target.innerText.toLowerCase();
         console.log(p);
