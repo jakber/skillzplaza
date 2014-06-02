@@ -2,14 +2,16 @@
     "picture": "https://sv.gravatar.com/userimage/24699959/8f17ff11307f031d5592ec694a38783f.jpg?size=120",
     "name": "Jakob Bergendahl",
     "primarySkills": [
+        {"name": "The Karbon stack", "buyers":["Everybody"]},
         {"name": "Java, Javascript and Python programming", "buyers":[]},
-        {"name": "Databases"},
-        {"name": "Distributed Systems"},
+        {"name": "Databases",  "buyers":["P-A"]},
+        {"name": "Distributed Systems",  "buyers":["P-A"]},
         {"name": "Scrum & Agile", "buyers":[]}
     ],
     "secondarySkills": [
         {"name": "Excelling in Excel", "buyers":[]},
-        {"name": "Theoretical Computer Science", "buyers":[]}
+        {"name": "Theoretical Computer Science", "buyers":["P-A"]},
+        {"name": "Front-end Web Development", "buyers":["P-A"]}
     ],
     "wishList": [
         {"name":"Advanced Scala", "sellers": []}
